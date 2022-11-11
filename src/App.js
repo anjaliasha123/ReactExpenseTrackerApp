@@ -35,8 +35,6 @@ function App() {
           ></ExpenseItems>
         ))
       }
-
-      console.log(expenses)
     </div>
   );
 }
