@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <h1>App component</h1>
+      <div className='container'>
       {
         expenses.map((item,index) => (
           <ExpenseItems key={index}
@@ -35,6 +36,8 @@ function App() {
           ></ExpenseItems>
         ))
       }
+      </div>
+      
     </div>
   );
 }
